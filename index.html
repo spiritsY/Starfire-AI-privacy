@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Tinder AI 隐私政策 | Privacy Policy</title>
+  <style>
+    :root {
+      --background: #f6f7f9;
+      --surface: #ffffff;
+      --text: #202124;
+      --secondary: #62676f;
+      --border: #e5e7eb;
+      --accent: #315efb;
+      --accent-soft: #edf2ff;
+      --warning: #8a5a00;
+      --warning-background: #fff7df;
+      --shadow: 0 18px 55px rgba(24, 32, 56, 0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #101114;
+        --surface: #191b20;
+        --text: #f5f7fa;
+        --secondary: #b0b5bf;
+        --border: #2c3038;
+        --accent: #8da7ff;
+        --accent-soft: #232d51;
+        --warning: #ffd47a;
+        --warning-background: #342a15;
+        --shadow: none;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    a { color: var(--accent); }
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 36px auto 72px;
+    }
+    .hero,
+    .content {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .hero {
+      padding: 42px 44px;
+      border-radius: 28px 28px 0 0;
+      background:
+        radial-gradient(circle at 92% 0%, var(--accent-soft), transparent 34%),
+        var(--surface);
+    }
+    .content {
+      padding: 16px 44px 48px;
+      border-top: 0;
+      border-radius: 0 0 28px 28px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+    }
+    h2 {
+      margin: 46px 0 14px;
+      padding-top: 4px;
+      font-size: 24px;
+      line-height: 1.35;
+    }
+    h3 {
+      margin: 28px 0 8px;
+      font-size: 18px;
+    }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0; padding-left: 22px; }
+    li { margin: 7px 0; }
+    .meta,
+    .summary { color: var(--secondary); }
+    .summary { max-width: 720px; }
+    .language-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .language-nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .notice {
+      margin: 24px 0 8px;
+      padding: 15px 18px;
+      border: 1px solid color-mix(in srgb, var(--warning) 30%, transparent);
+      border-radius: 14px;
+      background: var(--warning-background);
+      color: var(--warning);
+    }
+    .table-wrap {
+      margin: 16px 0;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+    table {
+      width: 100%;
+      min-width: 680px;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th,
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--accent-soft); }
+    tr:last-child td { border-bottom: 0; }
+    .divider {
+      margin: 64px 0 18px;
+      border: 0;
+      border-top: 1px solid var(--border);
+    }
+    .contact-card {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-radius: 16px;
+      background: var(--accent-soft);
+    }
+    code {
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    footer {
+      padding: 24px 8px 0;
+      color: var(--secondary);
+      text-align: center;
+      font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .page { width: min(100% - 20px, 920px); margin-top: 10px; }
+      .hero { padding: 30px 22px; border-radius: 22px 22px 0 0; }
+      .content { padding: 8px 22px 36px; border-radius: 0 0 22px 22px; }
+      h2 { margin-top: 38px; font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="eyebrow">Tinder AI · Privacy</div>
+      <h1>隐私政策<br><span lang="en">Privacy Policy</span></h1>
+      <p class="meta">更新日期：2026年7月16日 · 生效日期：2026年7月16日</p>
+      <p class="summary">
+        本政策说明 Tinder AI 如何处理聊天、图片、音频、翻译、会议纪要和拍题答疑相关数据。
+        Tinder AI 的主要 AI 能力使用随应用提供或保存在设备上的本地模型完成。
+      </p>
+      <nav class="language-nav" aria-label="Language navigation">
+        <a href="#zh">中文</a>
+        <a href="#en">English</a>
+        <a href="#choices">隐私选择与删除</a>
+      </nav>
+      <div class="notice">
+        发布前请将文中的“[请填写]”替换为与 Apple Developer/App Store Connect 主体一致的信息。
+      </div>
+    </header>
+
+    <article class="content" id="zh" lang="zh-CN">
+      <h2>1. 适用范围与运营者</h2>
+      <p>
+        本隐私政策适用于 Tinder AI iOS 与 macOS 应用（以下简称“本应用”）。本应用由
+        <strong>[请填写运营者完整名称]</strong>（以下简称“我们”）提供和运营。
+      </p>
+      <p>
+        联系邮箱：<strong>[请填写隐私联系邮箱]</strong><br>
+        联系地址：<strong>[请填写注册地址或常用联系地址]</strong>
+      </p>
+
+      <h2>2. 我们处理的信息</h2>
+      <p>根据您实际使用的功能，本应用可能处理以下信息：</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>信息类别</th>
+              <th>具体内容</th>
+              <th>处理目的</th>
+              <th>主要保存位置</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>聊天与生成内容</td>
+              <td>您输入的文字、选择的目标语言、本地模型生成的回复、翻译结果及会话标题</td>
+              <td>提供聊天、本地生成、翻译和会话历史功能</td>
+              <td>设备本地</td>
+            </tr>
+            <tr>
+              <td>图片</td>
+              <td>您主动拍摄或从相册选择的图片，包括聊天图片、OCR 图片、拍题及作业批改图片</td>
+              <td>图片理解、文字识别、翻译、答题和作业批改</td>
+              <td>设备本地；部分图片会复制到应用私有目录以保留历史记录</td>
+            </tr>
+            <tr>
+              <td>音频与转写</td>
+              <td>您主动录制的语音、会议录音片段、语音转写文本及翻译文本</td>
+              <td>语音输入、面对面翻译、同声听译、会议纪要和音频回放</td>
+              <td>设备本地；会议录音会保存至应用私有目录</td>
+            </tr>
+            <tr>
+              <td>学习记录</td>
+              <td>拍题/批改模式、内部处理指令、识别和生成结果、关联图片及创建时间</td>
+              <td>展示学习历史、重新查看答案和删除记录</td>
+              <td>设备本地数据库</td>
+            </tr>
+            <tr>
+              <td>会议纪要</td>
+              <td>会议标题、转写片段、实时译文、智能纪要、目标语言、录音文件路径及创建时间</td>
+              <td>实时转写、翻译、总结、历史查看与音频播放</td>
+              <td>设备本地；当前最多保存 50 条会议记录</td>
+            </tr>
+            <tr>
+              <td>偏好设置</td>
+              <td>界面语言、主题、翻译引擎和目标语言等选择</td>
+              <td>记住您的设置并提供一致体验</td>
+              <td>设备本地</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>3. 设备权限</h2>
+      <h3>3.1 相机</h3>
+      <p>仅在您主动使用拍照、图片识别、拍题、作业批改或拍照翻译时请求，用于拍摄所需图片。</p>
+      <h3>3.2 照片</h3>
+      <p>仅在您主动选择图片时请求，用于读取您选中的图片。本应用不会主动扫描整个照片图库。</p>
+      <h3>3.3 麦克风</h3>
+      <p>仅在您主动开始语音输入、翻译、同声听译或会议录音时请求，用于录制音频并完成本地语音识别。</p>
+      <p>您可以在系统设置中关闭这些权限。关闭后，与该权限相关的功能将无法使用，但其他功能不受影响。</p>
+
+      <h2>4. 系统服务与第三方能力</h2>
+      <p>本应用会使用以下 Apple 系统能力：</p>
+      <ul>
+        <li>
+          <strong>Apple 系统服务：</strong>包括相机、照片、AVFoundation、Translation、AVSpeechSynthesizer 和系统备份，
+          其处理同时受 Apple 隐私政策和系统设置约束。
+        </li>
+        <li>
+          <strong>系统资源下载：</strong>使用 Apple Translation 或系统语音时，操作系统可能连接 Apple 服务以下载语言或语音资源；
+          该过程由 Apple 控制，本应用不会将您的待翻译文本或本地记录发送至我们的服务器。
+        </li>
+      </ul>
+      <p>根据当前项目实现，本应用未接入运营者业务服务器，也未集成第三方广告 SDK、用户行为分析 SDK或跨应用广告追踪功能。</p>
+
+      <h2>5. 信息保存与删除</h2>
+      <ul>
+        <li>聊天会话、聊天图片、学习记录、会议纪要和会议音频主要保存在应用沙盒内。</li>
+        <li>您可以通过应用内的删除功能删除对应的聊天会话、学习记录或会议记录。</li>
+        <li>删除会议记录时，与该记录关联的本地会议音频会一并删除。</li>
+        <li>卸载本应用通常会删除应用沙盒内的数据；系统备份产生的副本受您的 Apple 账户及系统备份设置控制。</li>
+      </ul>
+
+      <h2 id="choices">6. 您的隐私选择与权利</h2>
+      <p>您可以：</p>
+      <ul>
+        <li>在系统设置中撤回相机、照片或麦克风权限；</li>
+        <li>在应用内删除聊天、学习记录和会议记录；</li>
+        <li>对我们的处理规则提出疑问、意见或投诉。</li>
+      </ul>
+      <p>由于主要内容保存在您的设备上，我们通常无法远程读取、恢复或删除这些本地数据。</p>
+
+      <h2>7. 信息安全</h2>
+      <p>
+        我们采取合理的技术措施保护信息，包括将记录保存在应用私有目录、限制权限用途、使用系统沙盒，
+        以及避免不必要的数据传输。但任何存储方式都无法保证绝对安全，请同时妥善保护您的设备和系统账户。
+      </p>
+
+      <h2>8. 未成年人保护</h2>
+      <p>
+        本应用包含学习与作业辅助功能。未成年人应在父母或其他监护人指导下使用；不满 14 周岁的未成年人应在监护人同意和指导下使用。
+        请避免在图片、录音或聊天中提交姓名、学校、住址、联系方式等不必要的个人信息。
+        如监护人认为未成年人的信息被不当处理，请通过本政策中的联系方式联系我们。
+      </p>
+
+      <h2>9. 数据传输说明</h2>
+      <p>
+        本应用运营者不会主动将您的聊天、图片、录音、作业或会议内容上传至运营者服务器。
+        Apple 系统更新、语言资源下载、App Store 分发和系统备份可能产生由 Apple 提供的网络传输，相关处理受 Apple 的政策和您的系统设置约束。
+      </p>
+
+      <h2>10. 政策更新</h2>
+      <p>
+        我们可能根据功能、技术或法律要求更新本政策。重大变化将通过应用内提示、版本说明或本页面公告。
+        更新后的政策自页面标明的生效日期起生效。
+      </p>
+
+      <h2>11. 联系我们</h2>
+      <div class="contact-card">
+        运营者：<strong>[请填写运营者完整名称]</strong><br>
+        隐私邮箱：<strong>[请填写隐私联系邮箱]</strong><br>
+        联系地址：<strong>[请填写注册地址或常用联系地址]</strong>
+      </div>
+    </article>
+
+    <hr class="divider">
+
+    <article class="content" id="en" lang="en">
+      <h2>1. Scope and Operator</h2>
+      <p>
+        This Privacy Policy applies to the Tinder AI applications for iOS and macOS (the “App”).
+        The App is provided and operated by <strong>[Insert the operator's full legal name]</strong> (“we,” “us,” or “our”).
+      </p>
+      <p>
+        Privacy email: <strong>[Insert privacy contact email]</strong><br>
+        Contact address: <strong>[Insert registered or business contact address]</strong>
+      </p>
+
+      <h2>2. Information We Process</h2>
+      <ul>
+        <li><strong>Chats and generated content:</strong> text you enter, target-language choices, local model responses, translations, and conversation titles.</li>
+        <li><strong>Images:</strong> photos you take or select for chat, OCR, image translation, question solving, and homework correction.</li>
+        <li><strong>Audio and transcripts:</strong> voice recordings, meeting audio segments, speech transcripts, translations, and meeting summaries.</li>
+        <li><strong>Learning history:</strong> task mode, internal processing instructions, recognition results, generated answers, associated images, and timestamps.</li>
+        <li><strong>Meeting records:</strong> meeting titles, transcript segments, live translations, summaries, target languages, local audio paths, and timestamps.</li>
+        <li><strong>Preferences:</strong> interface language, theme, translation engine, and target-language selections.</li>
+      </ul>
+
+      <h2>3. Device Permissions</h2>
+      <ul>
+        <li><strong>Camera:</strong> used only when you take a photo for recognition, translation, question solving, or homework correction.</li>
+        <li><strong>Photos:</strong> used only when you choose an image. The App does not intentionally scan your entire photo library.</li>
+        <li><strong>Microphone:</strong> used only after you start voice input, translation, interpretation, or meeting recording.</li>
+      </ul>
+      <p>You may withdraw these permissions in system settings. Related features will then become unavailable.</p>
+
+      <h2>4. System Services and Third Parties</h2>
+      <ul>
+        <li><strong>Apple system frameworks:</strong> Camera, Photos, AVFoundation, Translation, AVSpeechSynthesizer, and system backup, also governed by Apple's privacy terms and system settings.</li>
+        <li><strong>System resource downloads:</strong> the operating system may contact Apple to download language or voice resources. The App does not send your local records to a server operated by us.</li>
+      </ul>
+      <p>The current project does not connect to an operator business server and does not include a third-party advertising SDK, behavioral analytics SDK, or cross-app advertising tracking feature.</p>
+
+      <h2>5. Storage and Deletion</h2>
+      <ul>
+        <li>Chats, selected images, learning records, meeting notes, and meeting audio are primarily stored in the App's private on-device storage.</li>
+        <li>You may delete conversations, learning records, and meeting records through the App.</li>
+        <li>Deleting a meeting record also deletes its associated locally cached meeting audio.</li>
+        <li>Uninstalling the App normally removes data from the App sandbox. Copies in system backups are controlled by your Apple account and backup settings.</li>
+      </ul>
+
+      <h2>6. Your Choices and Rights</h2>
+      <p>
+        You may withdraw device permissions, delete local records in the App, or contact us with questions or complaints.
+        Because primary content is stored on your device, we generally cannot remotely read, recover, or delete that local data.
+      </p>
+
+      <h2>7. Security</h2>
+      <p>
+        We use reasonable safeguards, including private application storage, system sandboxing, permission controls,
+        and data minimization. No storage method is completely secure, so you should also protect your device and system account.
+      </p>
+
+      <h2>8. Children</h2>
+      <p>
+        The App includes learning and homework-assistance features. Minors should use the App with a parent or guardian.
+        Users under 14 should obtain guardian consent where required. Avoid including unnecessary personal information,
+        such as names, schools, addresses, or contact details, in images, recordings, or chats.
+      </p>
+
+      <h2>9. Data Transfer</h2>
+      <p>
+        We do not actively upload your chats, images, recordings, homework, or meeting content to a server operated by us.
+        Apple system updates, language-resource downloads, App Store distribution, and system backups may involve network
+        transfers provided by Apple and are governed by Apple's policies and your system settings.
+      </p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>
+        We may update this Policy as features, technology, or legal requirements change. Material updates will be announced
+        in the App, release notes, or on this page. The revised Policy becomes effective on the date shown above.
+      </p>
+
+      <h2>11. Contact Us</h2>
+      <div class="contact-card">
+        Operator: <strong>[Insert the operator's full legal name]</strong><br>
+        Privacy email: <strong>[Insert privacy contact email]</strong><br>
+        Address: <strong>[Insert registered or business contact address]</strong>
+      </div>
+    </article>
+
+    <footer>Tinder AI Privacy Policy · No advertising or analytics scripts are included on this page.</footer>
+  </main>
+</body>
+</html>
