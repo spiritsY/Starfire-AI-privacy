@@ -28,7 +28,7 @@
 - Consumes: existing Chinese and English policy sections in `index.html`
 - Produces: a valid static privacy-policy page containing equivalent live recording translation disclosures in both languages
 
-- [ ] **Step 1: Run content assertions before the change**
+- [x] **Step 1: Run content assertions before the change**
 
 Run:
 
@@ -38,15 +38,15 @@ rg -n "边录边译|live recording translation" index.html
 
 Expected: no complete privacy disclosure for the feature.
 
-- [ ] **Step 2: Update the Chinese policy**
+- [x] **Step 2: Update the Chinese policy**
 
 Extend the video-data row, Camera and Microphone permission descriptions, Storage and Deletion list, and Data Transfer paragraph. State that the feature collects only the current session's camera/microphone input after user action, processes recognition and translation locally, saves completed projects locally, and deletes App-managed temporary files on cancellation.
 
-- [ ] **Step 3: Update the English policy**
+- [x] **Step 3: Update the English policy**
 
 Add semantically equivalent language to the corresponding English information, permissions, storage/deletion, and data-transfer sections.
 
-- [ ] **Step 4: Validate content and HTML structure**
+- [x] **Step 4: Validate content and HTML structure**
 
 Run:
 
@@ -74,7 +74,7 @@ PY
 
 Expected: all assertions pass and the parser reports no exception.
 
-- [ ] **Step 5: Commit and publish**
+- [x] **Step 5: Commit and publish**
 
 ```bash
 git add index.html docs/superpowers/plans/2026-08-12-live-recording-translation-privacy.md
