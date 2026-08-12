@@ -178,7 +178,7 @@
     <header class="hero">
       <div class="eyebrow">Starfire AI · Privacy</div>
       <h1>隐私政策<br><span lang="en">Privacy Policy</span></h1>
-      <p class="meta">更新日期：2026年8月5日 · 生效日期：2026年8月5日</p>
+      <p class="meta">更新日期：2026年8月12日 · 生效日期：2026年8月12日</p>
       <p class="summary">
         本政策说明 Starfire AI 如何处理聊天、儿童学习、图片、音频、视频、翻译、会议纪要、学习辅助和端侧创作相关数据。
         Starfire AI 的主要 AI 识别与生成能力在设备本地完成。
@@ -240,9 +240,9 @@
             </tr>
             <tr>
               <td>视频、字幕与翻译工程</td>
-              <td>您主动导入的视频、提取的音频、识别原文、字幕时间轴、译文、配音设置、工程名称及导出文件</td>
-              <td>制作字幕、视频翻译、校对、预览、配音和导出视频</td>
-              <td>设备本地应用目录；导出后由您决定是否分享或保存</td>
+              <td>您主动导入的视频，以及您主动启动边录边译后采集的本次摄像头画面与麦克风音频；还包括提取或分段产生的音频、识别原文、字幕时间轴、译文、配音设置、工程名称及导出文件</td>
+              <td>制作字幕、视频翻译、边录边译、校对、预览、配音和导出视频</td>
+              <td>设备本地应用目录；边录边译的识别与翻译在设备本地完成，导出后由您决定是否分享或保存</td>
             </tr>
             <tr>
               <td>学习与考试记录</td>
@@ -286,11 +286,11 @@
 
       <h2>3. 设备权限</h2>
       <h3>3.1 相机</h3>
-      <p>仅在您主动拍照、识图、图片翻译、拍题、作业批改或儿童看图说话时请求，用于获取本次拍摄的图片。</p>
+      <p>仅在您主动拍照、识图、图片翻译、拍题、作业批改、儿童看图说话，或主动启动边录边译时请求，用于获取本次拍摄的图片或录制本次视频画面。</p>
       <h3>3.2 照片</h3>
       <p>仅在您主动选择图片或视频时使用，用于读取您选择的项目。本应用不会主动扫描整个照片图库。</p>
       <h3>3.3 麦克风</h3>
-      <p>仅在您主动开始语音输入、语音翻译、同声听译或会议录音时请求，用于录制音频并完成端侧语音识别。</p>
+      <p>仅在您主动开始语音输入、语音翻译、同声听译、会议录音或边录边译时请求，用于录制本次音频并完成端侧语音识别与翻译。</p>
       <p>您可以在系统设置中撤回权限。撤回后，仅依赖该权限的功能会无法使用，其他功能不受影响。</p>
 
       <h2>4. 系统服务、下载与分享</h2>
@@ -329,6 +329,7 @@
         <li>每日免费使用日期和次数保存在设备本地，日期变化后自动重置当日次数。</li>
         <li>Apple 用户标识符保存在系统钥匙串；订阅交易与权益由 StoreKit 和 App Store 管理。</li>
         <li>您可以在应用内删除普通会话，或清空考试与儿童王国等固定会话；也可以删除学习记录、会议记录和视频工程。</li>
+        <li>边录边译期间产生的音频片段、无声视频、转写和译文仅在设备本地处理。完成并生成后，相关内容按视频工程规则保存在应用沙盒；取消本次边录边译时，应用会清理其管理的临时文件。</li>
         <li>删除会议或视频工程时，应用会同时删除其管理的关联本地文件；已通过系统分享或另存的副本需由您在目标位置删除。</li>
         <li>卸载本应用通常会删除应用沙盒内的数据；系统备份副本受您的 Apple 账户及备份设置控制。</li>
         <li>除法律另有要求外，我们仅在实现对应功能所需的最短期间内处理信息；由您保存在本地的历史会一直保留到您删除或卸载应用。</li>
@@ -360,7 +361,7 @@
 
       <h2>10. 数据传输说明</h2>
       <p>
-        核心聊天、图片 OCR 与翻译、语音识别、视频字幕、儿童学习、会议纪要和绘画生成主要在设备本地处理，我们不会主动将这些内容上传至运营者服务器。
+        核心聊天、图片 OCR 与翻译、语音识别、视频字幕、边录边译、儿童学习、会议纪要和绘画生成主要在设备本地处理，我们不会主动将这些内容上传至运营者服务器。边录边译仅在您主动启动后采集本次摄像头画面与麦克风音频，其语音识别和翻译在设备本地完成。
         在您同意本政策后，友盟移动统计 SDK 会传输本政策第 5 节列明的统计信息；通过 Apple 登录、StoreKit、App Store、系统更新、系统资源下载、模型文件下载、系统备份，以及您主动执行的文件分享也可能产生网络传输。这些传输仅发生在对应功能需要、获得您的同意或您主动操作时，并受相关系统或接收方规则约束。
       </p>
 
@@ -391,7 +392,7 @@
         <li><strong>Kids Kingdom content:</strong> prompts, selected images, and generated responses from Animal English, Story Time, Fun Math, Curious Why, Picture Talk, and Creative Drawing, stored in a dedicated local conversation.</li>
         <li><strong>Images and recognized text:</strong> images you take or select, text recognized with Apple Vision OCR, image translations, question-solving content, and homework review results.</li>
         <li><strong>Audio and transcripts:</strong> voice input, meeting audio segments, transcripts, translations, summaries, and playback settings.</li>
-        <li><strong>Video, subtitle, and translation projects:</strong> imported videos, extracted audio, recognized text, subtitle timing, translations, voice settings, project names, and exported files.</li>
+        <li><strong>Video, subtitle, and translation projects:</strong> videos you import; the camera video and microphone audio captured for the current session after you start live recording translation; extracted or segmented audio, recognized text, subtitle timing, translations, voice settings, project names, and exported files. Recognition and translation for live recording translation are performed on device.</li>
         <li><strong>Learning and exam records:</strong> task modes, exam settings, recognized questions, answers, explanations, associated images, exported DOCX files, and timestamps.</li>
         <li><strong>Meeting records:</strong> titles, transcript segments, live translations, summaries, target languages, local audio paths, and timestamps.</li>
         <li><strong>On-device drawings:</strong> prompts, negative prompts, and images generated locally with a Core ML model.</li>
@@ -402,9 +403,9 @@
 
       <h2>3. Device Permissions</h2>
       <ul>
-        <li><strong>Camera:</strong> requested only when you take a photo for image understanding, translation, question solving, homework review, or Picture Talk.</li>
+        <li><strong>Camera:</strong> requested only when you take a photo for image understanding, translation, question solving, homework review, or Picture Talk, or after you start live recording translation to capture the current session's video.</li>
         <li><strong>Photos:</strong> used only when you select an image or video. The App does not intentionally scan your entire photo library.</li>
-        <li><strong>Microphone:</strong> requested only after you start voice input, voice translation, interpretation, or meeting recording.</li>
+        <li><strong>Microphone:</strong> requested only after you start voice input, voice translation, interpretation, meeting recording, or live recording translation, to record the current session's audio and perform on-device speech recognition and translation.</li>
       </ul>
       <p>You may withdraw permissions in system settings. Only features that depend on a withdrawn permission will become unavailable.</p>
 
@@ -444,6 +445,7 @@
         <li>The local date and daily free-response count are stored on the device and reset when the date changes.</li>
         <li>The Apple user identifier is stored in Keychain. Subscription transactions and entitlements are managed by StoreKit and the App Store.</li>
         <li>You may delete ordinary conversations, clear fixed conversations such as Kids Kingdom and Exam, and delete learning records, meeting records, and video projects.</li>
+        <li>Audio segments, silent video, transcripts, and translations created during live recording translation are processed locally. If you complete and generate the result, they are saved in the App sandbox under the existing video-project rules. If you cancel the session, the App removes the temporary files it manages.</li>
         <li>Deleting a managed meeting or video project also removes its associated local files. Copies you shared or saved elsewhere must be deleted at their destination.</li>
         <li>Uninstalling the App normally removes sandbox data. System-backup copies are controlled by your Apple account and backup settings.</li>
         <li>Unless law requires otherwise, information is processed only for the shortest period needed for the relevant feature. Local history remains until you delete it or uninstall the App.</li>
@@ -460,7 +462,7 @@
       <p>The App does not require a child to provide a real name, school, class, address, contact details, precise location, or identity information. Do not include unnecessary personal information in chats, images, recordings, or videos. Kids Kingdom inputs and responses are stored in a dedicated local fixed conversation that a guardian can review and clear.</p>
 
       <h2>10. Data Transfer</h2>
-      <p>Core chat, image OCR and translation, speech recognition, video subtitles, children's learning, meeting notes, and drawing generation are primarily processed on device. We do not actively upload this content to a server operated by us. After you agree to this Policy, the Umeng Mobile Analytics SDK transmits the analytics information described in Section 5. Sign in with Apple, StoreKit, the App Store, system updates, resource downloads, model downloads, system backups, and file sharing you initiate may also involve network transfers governed by the relevant system or recipient.</p>
+      <p>Core chat, image OCR and translation, speech recognition, video subtitles, live recording translation, children's learning, meeting notes, and drawing generation are primarily processed on device. We do not actively upload this content to a server operated by us. Live recording translation captures the current session's camera video and microphone audio only after you start it, and performs speech recognition and translation on device. After you agree to this Policy, the Umeng Mobile Analytics SDK transmits the analytics information described in Section 5. Sign in with Apple, StoreKit, the App Store, system updates, resource downloads, model downloads, system backups, and file sharing you initiate may also involve network transfers governed by the relevant system or recipient.</p>
 
       <h2>11. Changes to This Policy</h2>
       <p>We may update this Policy as features, technology, or legal requirements change. Material changes will be announced in the App, release notes, or on this page. The revised Policy takes effect on the date shown above.</p>
