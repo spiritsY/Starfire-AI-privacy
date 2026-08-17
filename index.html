@@ -181,7 +181,7 @@
       <p class="meta">更新日期：2026年8月14日 · 生效日期：2026年8月14日</p>
       <p class="summary">
         本政策说明 Starfire AI 如何处理聊天、图片、音频、视频、翻译、会议纪要、学习辅助和端侧创作相关数据。
-        Starfire AI 的主要 AI 识别与生成能力在设备本地完成。
+        Starfire AI 的 AI 推理、视觉理解、文生图和语音识别能力使用端侧模型在设备本地完成，不向第三方云端 AI 服务发送上述用户内容。
       </p>
       <nav class="language-nav" aria-label="Language navigation">
         <a href="#zh">中文</a>
@@ -191,6 +191,16 @@
     </header>
 
     <article class="content" id="zh" lang="zh-CN">
+      <div class="notice" style="margin-top:24px;">
+        <strong>重要的 AI 数据处理说明</strong><br>
+        本应用使用的 AI 模型均在您的设备本地运行，不依赖第三方云端 AI 服务处理您的聊天内容、图片、音频或视频。本应用当前使用的本地模型包括：<br>
+        <strong>推理模型：</strong>Qwen2.5-1.5B-Instruct-Q4_0、Qwen3.5-4B-Q4_0；
+        <strong>文生图模型：</strong>Core ML Stable Diffusion 1.5；
+        <strong>视觉模型：</strong>MiniCPM-V-4_6-Q4_0；
+        <strong>语音识别模型：</strong>Whisper。<br>
+        上述模型在设备本地执行推理、图像生成、视觉理解和语音识别。我们不会将您输入的聊天文本、上传或选择的图片、录音、视频或这些内容产生的提示词、识别结果发送给第三方 AI 服务进行处理。模型文件下载仅用于将模型安装到设备，不会随模型下载请求上传上述用户内容。
+      </div>
+
       <h2>1. 适用范围与运营者</h2>
       <p>
         本隐私政策适用于 Starfire AI iOS 应用（以下简称“本应用”）。本应用由
@@ -351,7 +361,7 @@
 
       <h2>10. 数据传输说明</h2>
       <p>
-        核心聊天、图片 OCR 与翻译、语音识别、视频字幕、边录边译、会议纪要和绘画生成主要在设备本地处理，我们不会主动将这些内容上传至运营者服务器。边录边译仅在您主动启动后采集本次摄像头画面与麦克风音频，其语音识别和翻译在设备本地完成。
+        核心聊天、图片 OCR 与翻译、语音识别、视频字幕、边录边译、会议纪要和 AI 推理、视觉理解、文生图均主要在设备本地处理，我们不会主动将这些内容上传至运营者服务器，也不会将这些用户内容发送给第三方 AI 服务进行处理。边录边译仅在您主动启动后采集本次摄像头画面与麦克风音频，其语音识别和翻译在设备本地完成。
         在您同意本政策后，友盟移动统计 SDK 会传输本政策第 5 节列明的统计信息；StoreKit、App Store、系统更新、系统资源下载、模型文件下载、系统备份，以及您主动执行的文件分享也可能产生网络传输。这些传输仅发生在对应功能需要、获得您的同意或您主动操作时，并受相关系统或接收方规则约束。
       </p>
 
@@ -369,6 +379,16 @@
     <hr class="divider">
 
     <article class="content" id="en" lang="en">
+      <div class="notice" style="margin-top:24px;">
+        <strong>Important AI Data Processing Notice</strong><br>
+        The AI models used by the App run locally on your device. The App does not rely on a third-party cloud AI service to process your chats, images, audio, or video. The App currently uses the following on-device models:<br>
+        <strong>Reasoning models:</strong> Qwen2.5-1.5B-Instruct-Q4_0 and Qwen3.5-4B-Q4_0;
+        <strong>Text-to-image model:</strong> Core ML Stable Diffusion 1.5;
+        <strong>Vision model:</strong> MiniCPM-V-4_6-Q4_0;
+        <strong>Speech recognition model:</strong> Whisper.<br>
+        These models perform inference, image generation, visual understanding, and speech recognition locally on your device. We do not send your chat text, uploaded or selected images, recordings, videos, or prompts and results derived from such content to a third-party AI service for processing. Model-file downloads are used only to install models on your device and do not upload the user content described above as part of the model download request.
+      </div>
+
       <h2>1. Scope and Operator</h2>
       <p>This Privacy Policy applies to the Starfire AI application for iOS (the “App”). The App is provided and operated by <strong>Yang Desong (羊德松)</strong> (“we,” “us,” or “our”).</p>
       <p>
